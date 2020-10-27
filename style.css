@@ -1,0 +1,122 @@
+/* Write some CSS below */
+/* style.css */
+body {
+  font-family: Overpass;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #404042;
+  font-family: Chivo;
+}
+
+p {
+  color: #404042;
+  opacity: .7;
+}
+
+.spotify {
+  height: 120px;
+  margin: auto;
+  background-color:white;
+  padding-top: 30px
+}
+
+.spotify-container {
+  width: 400px;
+  height: 100px;
+  background-color: #DF8588;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 0 0 16px #E2787A;
+  position: relative;
+  text-align: center;
+}
+
+#player {
+  display: inline-block;
+  margin: 7px;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+}
+
+.link-button {
+  background-color: #DF8588;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.link-button:hover {
+  background-color: white;
+  color: #DF8588;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card h3 {
+  margin-bottom: 0;
+}
+
+.footer {
+  background: #DF8588;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.footer p {
+  color: white;
+}
+
+#insta {
+  width: 40px;
+  height:40px;
+}
+
+<!-- index.html -->
+<head>
+  <!-- [...] -->
+  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+  <!-- [...] -->
+</head>
